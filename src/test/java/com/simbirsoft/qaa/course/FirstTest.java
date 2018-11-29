@@ -26,7 +26,7 @@ public class FirstTest {
     @BeforeMethod
         public void beforeMethod() {
         //System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+        System.setProperty("webdriver.chrome.driver", "/home/artem/chromedriver");
         driver = new ChromeDriver();
         }
        @Test
