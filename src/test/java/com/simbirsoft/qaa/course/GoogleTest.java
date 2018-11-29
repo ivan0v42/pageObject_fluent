@@ -18,7 +18,7 @@ public class GoogleTest {
     @BeforeMethod
     public void beforeMethod() {
        // System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+        System.setProperty("webdriver.chrome.driver", "/home/chromedriver");
         
         driver = new ChromeDriver();
     }
